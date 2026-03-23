@@ -55,3 +55,6 @@ try:
 
 except Exception as e:
     print(f"\n❌ Error: {e}")
+
+# ejecuta este comando en el master copia el resultado usando sudo y pegalo en el worker para unirlo.
+kubeadm token create --print-join-command
